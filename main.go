@@ -22,7 +22,10 @@ func main() {
 	nc = ecc.NewConfig(os.Getenv("NATS_URI")).Nats()
 	_, err := nc.Subscribe("*.*.azure", func(m *nats.Msg) {
 		key := os.Getenv("ERNEST_CRYPTO_KEY")
-		ernestprovider.GetAndHandle(m.Subject, m.Data, key)
+		subject, body := ernestprovider.GetAndHandle(m.Subject, m.Data, key)
+		if err := nc.Publish(subject, body); err != nil {
+			log.Println("Can't connect to nats")
+		}
 	})
 
 	if err != nil {
