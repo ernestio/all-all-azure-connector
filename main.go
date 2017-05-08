@@ -20,7 +20,7 @@ var err error
 
 func main() {
 	nc = ecc.NewConfig(os.Getenv("NATS_URI")).Nats()
-	_, err := nc.Subscribe("*.*.azure", func(m *nats.Msg) {
+	_, err := nc.QueueSubscribe("*.*.azure", "azure-connector", func(m *nats.Msg) {
 		key := os.Getenv("ERNEST_CRYPTO_KEY")
 		subject, body := ernestprovider.GetAndHandle(m.Subject, m.Data, key)
 		if err := nc.Publish(subject, body); err != nil {
