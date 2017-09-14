@@ -1,10 +1,10 @@
 # ALL-ALL-AZURE-CONNECTOR
-Master  - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master)    
-Develop - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop)
-
-
 master  - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master)  
 develop - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop)
+
+
+master:  [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master)  
+develop: [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop)
 
 
 Service to manage azure component actions, you can configure it to respond to different component actions setting COMPONENTS environment variable
