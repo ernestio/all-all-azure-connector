@@ -1,7 +1,7 @@
 # ALL-ALL-AZURE-CONNECTOR
 [![master](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master)
 
-foo [bar!baz[develop](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop)
+foo [![develop](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop)
 
 Service to manage azure component actions, you can configure it to respond to different component actions setting COMPONENTS environment variable
 ```
