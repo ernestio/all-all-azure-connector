@@ -9,6 +9,7 @@ master - [![develop](https://circleci.com/gh/ernestio/all-all-azure-connector/tr
 
 [![develop](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop) - master
 
+[[develop](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop) - master
 
 
 Service to manage azure component actions, you can configure it to respond to different component actions setting COMPONENTS environment variable
