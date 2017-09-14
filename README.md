@@ -1,6 +1,5 @@
 # ALL-ALL-AZURE-CONNECTOR
-Master - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master)
-
+Master - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/master)    
 Develop - [![CircleCI](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop.svg?style=shield)](https://circleci.com/gh/ernestio/all-all-azure-connector/tree/develop)
 
 
