@@ -35,7 +35,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/nats-io/nats"
+  name = "github.com/nats-io/go-nats"
 
 [[override]]
   name = "github.com/satori/go.uuid"
